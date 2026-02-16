@@ -1,0 +1,48 @@
+.trendingvideoCard-Container {
+  margin: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.thumbnailImages {
+  width: 290px;
+}
+
+.trendingContents {
+  margin: 15px;
+}
+
+.darkTrendingTitle {
+  color: white;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.lightTrendingTitle {
+  color: black;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.darkChannelName {
+  color: white;
+}
+
+.lightChannelName {
+  color: black;
+}
+
+.darktrendingViewcountandTime {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.lightTrendingViewcountandTime {
+  color: black;
+  display: flex;
+  align-items: center;
+}

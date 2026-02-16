@@ -1,0 +1,29 @@
+.gamingVideoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.lightTitle {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.darkTitle {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.darkCount {
+  color: white;
+}
+
+.lightCount {
+  color: black;
+}

@@ -1,0 +1,177 @@
+.lightHomeContainer {
+  background-color: #f8fafc;
+  height: 100vh;
+}
+
+.darkHomeContainer {
+  background-color: #181818;
+  height: 100vh;
+}
+
+.contentContainer {
+  display: flex;
+}
+
+.darkCategoryContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15vw;
+  background-color: #313131;
+  height: 100vh;
+}
+
+.lightCategoryContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15vw;
+  background-color: #f8fafc;
+  height: 100vh;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+}
+
+.link-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.darkLink-Titles {
+  margin-top: 10px;
+  font-size: 18px;
+  width: 10vw;
+  font-family: 'Roboto';
+  color: white;
+  margin: 5px;
+}
+
+.lightLinkTitles {
+  margin-top: 10px;
+  font-size: 18px;
+  width: 10vw;
+  font-family: 'Roboto';
+  color: black;
+  margin: 5px;
+}
+
+.darkVideoContainer {
+  background-color: black;
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightVideoContainer {
+  background-color: white;
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkLogo {
+  color: #616e7c;
+}
+
+.videosContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.darkSearch {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ebebeb;
+  margin-top: 10px;
+}
+
+.lightSearch {
+  margin-top: 10px;
+}
+
+.failedImage {
+  width: 250px;
+}
+
+.failedContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedia-Images {
+  width: 30px;
+  margin: 5px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 70px;
+  padding: 20px;
+}
+
+.lightContactHeading {
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Roboto';
+}
+
+.darkContactHeading {
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.lightcontactDescription {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.darkcontactDescription {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: white;
+}
+
+.noVideos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failedButton {
+  background-color: #00306e;
+  border-width: 0px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px 24px;
+}
+
+@media screen and (max-width: 576px) {
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,86 @@
+.nxtWatchLogo {
+  width: 120px;
+}
+
+.lightHeader-Container {
+  padding: 20px;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.darkHeader-Container {
+  padding: 20px;
+  background-color: #313131;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilePic {
+  width: 35px;
+}
+
+.modeDetails-Container {
+  width: 18vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modeLogo-Button {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.darkLogout {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  font-family: 'Roboto';
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+.lightLogout {
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  background-color: transparent;
+  font-family: 'Roboto';
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+.trigger-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.popup-content {
+  background-color: #313131;
+  color: white;
+  padding: 15px;
+}
+
+.cancelBtn {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px 24px;
+  border-radius: 6px;
+  color: white;
+  margin: 7px;
+}
+
+.confirmBtn {
+  border-width: 0px;
+  background-color: #3b82f6;
+  padding: 10px 24px;
+  border-radius: 6px;
+  color: white;
+  margin: 7px;
+}
+
+@media screen and (min-width: 576px) {
+  .menuLogo {
+    display: none;
+  }
+}

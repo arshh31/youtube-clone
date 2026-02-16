@@ -1,0 +1,79 @@
+.thumbnailImage {
+  width: 19vw;
+}
+
+.lightVideoCard-container {
+  width: 19vw;
+  height: 45vh;
+  margin: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.darkVideoCard-container {
+  width: 19vw;
+  height: 45vh;
+  margin: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.profileImage {
+  width: 30px;
+}
+
+.publishAndViews-container {
+  display: flex;
+}
+
+.profileandName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.viewsAndCount {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+
+.publishedDate {
+  margin: 10px;
+}
+
+.linkVideoCard {
+  text-decoration: none;
+}
+
+.darkName {
+  color: #94a3b8;
+}
+
+.lightName {
+  color: #616e7c;
+}
+
+.darkTitle {
+  color: white;
+}
+
+.lightTitle {
+  color: black;
+}

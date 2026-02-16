@@ -1,0 +1,41 @@
+.darkTrendingVideoContainer {
+  background-color: #231f20;
+  height: 9vh;
+  width: 85vw;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lightTrendingVideoContainer {
+  height: 9vh;
+  width: 85vw;
+  padding: 20px;
+  overflow-y: scroll;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.darkWholeContainer {
+  background-color: #181818;
+}
+
+.darklogoContainer {
+  background-color: #181818;
+  border-radius: 57%;
+  padding: 15px;
+}
+
+.lightlogoContainer {
+  background-color: #d7dfe9;
+  border-radius: 57%;
+  padding: 15px;
+}
+
+.trendingVideosTitle {
+  margin: 8px;
+}

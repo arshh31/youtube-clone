@@ -1,0 +1,4 @@
+.gamingVideoContainer {
+  display: flex;
+  flex-wrap: wrap;
+}

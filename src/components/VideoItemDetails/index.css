@@ -1,0 +1,109 @@
+.playerContainer {
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: center;
+}
+
+.videoPlayer {
+  width: 80vw;
+}
+
+.darkviewsAndPublish-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+  color: white;
+}
+
+.lightviewsAndPublish-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+  color: black;
+}
+
+.viewsAndPublishContent {
+  display: flex;
+  align-items: center;
+}
+
+.btns {
+  background-color: transparent;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.lightbuttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  color: #64748b;
+}
+
+.darkbuttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0px;
+  color: #64748b;
+}
+
+.isLikedBtn {
+  color: #2563eb;
+}
+
+.isDislikedBtn {
+  color: #2563eb;
+}
+
+.darkHorizontalLine {
+  width: 75vw;
+  color: #7e858e;
+}
+
+.lightHorizontalLine {
+  width: 75vw;
+  color: #313131;
+}
+
+.channelInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightChannelContent {
+  margin: 10px;
+  color: black;
+}
+
+.darkChannelContent {
+  margin: 10px;
+  color: white;
+}
+
+.todayTime {
+  margin: 10px;
+}
+
+.darkDescription {
+  color: white;
+}
+
+.lightDescription {
+  color: black;
+}
+
+.isSavedBtn {
+  color: #3b82f6;
+}
